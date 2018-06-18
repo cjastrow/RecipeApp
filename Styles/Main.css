@@ -1,0 +1,226 @@
+body {
+	margin: 0px;
+	font-family: arial;
+	background-color: black;
+}
+
+body::after {
+  content: "";
+  background: url(../Images/Tile.jpg);
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+#welcome {
+	position: fixed;
+	top: 15vh;
+	left: 50vw;
+	width: 700px;
+	margin-left: -350px;
+}
+
+h1 {
+	font-family: arial black;
+	text-align: center;
+	user-select: none;
+	color: white;
+}
+
+#subhead {
+	font-family: arial black;
+	text-align: center;
+	user-select: none;
+	color: white;
+}
+
+.recipe {
+	height: 40px;
+	overflow: hidden;
+	user-select: none;
+	margin-left: 13px;
+}
+
+.recipe:hover {
+	cursor: pointer;
+	color: blue;
+}
+
+#searchArea{
+	position: fixed;
+	top: 40vh;
+	left: 50vw;
+	margin-left: -107px;
+	width: 214px;
+	height: 30px;
+	background-image: url(../Images/Board.jpg);
+	background-size: 100% auto;
+	border: 2px solid white;
+}
+
+#searchInput {
+	position: relative;
+	top: 2px;
+	left: 5px;
+	width: 95px;
+}
+
+#whatWasSearched {
+	position: relative;
+	left: 10px;
+	text-transform: uppercase;
+	display: none;
+	font-family: arial black;
+}
+
+#searchBtn {
+	text-align: center;
+	display: inline-block;
+	width: 95px;
+	height: 20px;
+	background-color: blue;
+	position: relative;
+	left: 7.5px;
+	top: 3px;
+	font-family: arial black;
+	color: white;
+	user-select: none;
+	padding-bottom: 3px;
+}
+
+#searchBtn:hover {
+	cursor: pointer;
+	background-color: white;
+	color: blue;
+}
+
+#backBtn {
+	text-align: center;
+	display: none;
+	width: 65px;
+	height: 20px;
+	background-color: red;
+	position: relative;
+	left: 18px;
+	top: 15px;
+	font-family: arial black;
+	color: white;
+	user-select: none;
+	padding-bottom: 3px;
+}
+
+#backBtn:hover {
+	cursor: pointer;
+	background-color: white;
+	color: red;
+}
+
+#ingredients {
+	opacity: 0;
+	position: absolute;
+	top: 3vh;
+	right: 2vw;
+	width: 50vw;
+	height: 0px;
+	background-image: url(../Images/Marble.jpg);
+	background-size: auto 100%;
+	border-radius: 15px;;
+	box-shadow: 3px 3px 10px rgba(0,0,0,.6);
+}
+
+.ingredientsAdjustment {
+	margin-left: 5px;
+}
+
+.hidden {
+	display: none;
+}
+
+.picture {
+	margin-top: 4vh;
+	margin-left: 20px;
+	width: 14vw;
+	height: auto;
+	border: 2px solid black;
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,.4);
+}
+
+li {
+	font-size: 14px;
+	font-family: arial;
+}
+
+#item0 {
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#item1 {
+	position: relative;
+	left: 0px;
+}
+
+#item2 {
+	position: relative;
+	left: 0px;
+}
+
+#item3 {
+	position: relative;
+	left: 0px;
+}
+
+#item4 {
+	position: relative;
+	left: 0px;
+}
+
+#item5 {
+	position: relative;
+	left: 0px;
+}
+
+#item6 {
+	position: relative;
+	left: 0px;
+}
+
+#item7 {
+	position: relative;
+	left: 0px;
+}
+
+#item8 {
+	position: relative;
+	left: 0px;
+}
+
+#item9 {
+	position: relative;
+	left: 0px;
+}
+
+#item10 {
+	position: relative;
+	left: 0px;
+}
